@@ -1,0 +1,31 @@
+a {
+    display: block;
+    font-size: 3em;
+    
+}
+
+a#link1:link {
+    color: red;
+}
+
+a#link2:visited {
+    color: green;
+}
+
+a#link3:hover {
+    color: orange;
+    background-color: pink;
+    font-size: 10em;
+    display: inline;
+}
+
+a#link4:active {
+    color: crimson;
+}
+a#link5:focus {
+    color: yellow;
+}
+
+input:focus {
+    background-color: aqua;
+}
