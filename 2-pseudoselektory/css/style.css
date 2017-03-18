@@ -29,3 +29,37 @@ a#link5:focus {
 input:focus {
     background-color: aqua;
 }
+
+#p1:target {
+    color: fuchsia;
+}
+
+p:lang(en) {
+    font-weight: 800;
+}
+
+p:lang(pl) {
+    font-weight: 200;
+}
+
+.list-item:first-child {
+    background-color: aqua;
+}
+
+
+div > p:only-child {
+    background-color: blue;
+}
+
+/*       zastosowanie przy tabelkach można kolorować co drugi tak jak mam na athinie    */
+
+.list-item:nth-child(odd) {
+    background-color: royalblue;
+}
+
+.list-item:nth-child(7) {
+    background-color: red;
+}
+.list-item:nth-child(3n + 2) {
+    background-color: gold;
+}
