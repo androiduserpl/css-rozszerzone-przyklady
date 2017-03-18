@@ -1,0 +1,25 @@
+* { /*  * dla całego dokumentu */
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box; /*  bierze dla całej zawartośći */
+    border: 10px dotted black;
+   /* margin: 10px;       bez marginesów bo wywala się pod spód (kicha)          */
+}    
+
+.col-1-2:first-child {
+    background-color: beige;
+}
+
+.col-1-2:last-child {
+    background-color: darksalmon;
+}

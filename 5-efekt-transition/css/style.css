@@ -1,0 +1,26 @@
+.square {
+    margin: auto;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    /*transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.5s;
+    */
+    transition: all 2s ease-in; /*  to samo co wyżej tylko w jedniej linijce   */
+}
+.square:hover {
+    background-color: blue;
+    width: 400px;
+}
+
+img {
+    height: 50px;
+    transition: all .8s;
+}
+
+img:hover {
+    height: 200px;
+    width: 300px;
+}

@@ -1,0 +1,3 @@
+trzy kolumny dla powyżej 992px
+dwie kolumny dla powyżej 768px do 992px
+jedna kolumna dla poniżej 480px i sekcja oraz obrazki w gal ma mieć 100%
