@@ -1,4 +1,15 @@
+.background {
+    height: 950;
+    margin: auto;
+    background-image: url(../obrazy/man-1.jpg) no-repeat top;
+    background-size: cover;
+}
+
+
+
+
 body {
     margin: 0;
 }
+
 
